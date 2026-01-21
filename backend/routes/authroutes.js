@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const path = require('path');
 
-const USER = path.join(__dirname, '../data/users.json');
+const USER = path.join(__dirname, '../data/users.json'); 
 
 router.post("/signup", (req, res) => {
     try {
